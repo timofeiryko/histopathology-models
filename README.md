@@ -16,7 +16,7 @@ To load model weights, move these folders to your project and use the following 
 saved_model = model.load_weights('ModelName')
 ```
 
-Model names are: `ResNet50`, `ResNet50-dropout`, `SimpleCNN`.
+Model names are: `ResNet50`, `ResNet50-dropout`, `InceptionV3`, `SimpleCNN`.
 
 In the repo itself you can find just the notebook
 
