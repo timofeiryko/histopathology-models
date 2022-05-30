@@ -4,7 +4,7 @@ In this repo you can find code to classify histopathological images with deep le
 
 You can also use this code to train on your own data. It is built using tensorflow and keras. For example, you can integrate these models with [Deepslide](https://github.com/BMIRDS/deepslide/) or other pipelines.
 
-If you like it, please, upwote [this notebook on Kaggle]() and star this repo!
+If you like it, please, upwote [this notebook on Kaggle](https://www.kaggle.com/code/dreamtim1/lung-cancer-classification-best-models-comparison) and star this repo!
 
 ## Usage
 
@@ -16,9 +16,9 @@ To load model weights, move these folders to your project and use the following 
 saved_model = model.load_weights('ModelName')
 ```
 
-Model names are: `ResNet50`, `ResNet50-dropout`, `InceptionV3`, `SimpleCNN`.
+Model names are: `ResNet50`, `ResNet50-dropout`, `InceptionV3`, `VGG16`, `EfficientNetB7`, `SimpleCNN`.
 
-In the repo itself you can find just the notebook
+In the repo itself you can find just the notebooks with code for all the models, notebook with model comaprison analysis and trainig logs. 
 
 ## Which models are better?
 
