@@ -1,0 +1,2 @@
+model_checkpoint_path: "SimpleCNN"
+all_model_checkpoint_paths: "SimpleCNN"
